@@ -8,16 +8,16 @@ public class ResourceController {
 
     @GetMapping(value = "/")
     public String defaultPage(){
-        return "Hello World";
+        return "<h1>Hello World</h1>";
     }
 
     @GetMapping(value = "/admin")
     public String defaultAdminPage(){
-        return "Hello World Admin";
+        return "<h1>Hello World Admin</h1>";
     }
 
     @GetMapping(value = "/user")
     public String defaultUserPage(){
-        return "Hello World User";
+        return "<h1>Hello World User</h1>";
     }
 }
